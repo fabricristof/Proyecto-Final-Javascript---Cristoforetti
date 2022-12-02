@@ -1,0 +1,100 @@
+.body {
+    background-color: #F2E7D5;
+}
+
+
+
+.headerPrincipal {
+    
+    position: relative;
+    justify-items: center;
+    padding-right: 0;
+    padding: 0;
+   
+    
+    
+}
+
+.tituloPrincipal {
+    font-size: 6rem;
+    color: #393E46;
+    font-weight: lighter;
+    width: auto;
+    text-align: start;
+    border-bottom: solid 1px #393E46 ;
+    font-family: 'Playfair Display', serif;
+   
+   
+    
+}
+
+.navegadorPrincipal {
+
+   color: #393E46;
+   font-size: 1rem;
+   justify-content:space-around;
+   font-weight:light;
+   padding-top: 80px;
+   padding-bottom: 100PX;
+   text-align: center;
+   font-family: 'Playfair Display', serif;
+   
+}
+
+
+
+a {
+    color:#393E46;
+    text-decoration: none       
+    
+   
+
+}
+
+
+
+
+.lista {
+   text-align: center; 
+   flex-direction: column;
+  
+   
+}
+
+h1 {
+    padding: 50px;
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+   
+    
+}
+
+
+
+.tituloSecciones {
+    font-size: 4rem;    
+    text-align: end;
+    margin-right: 150px;
+    margin-left: 50px;
+    font-weight: lighter;
+    padding-top: 150px;
+    padding-bottom: 50PX;
+    border-bottom: #393E46 solid 0.5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.tituloSecciones:hover {
+    transform: scale(110%);
+}
+
+
+.link:hover {
+    transform: scale(150%);
+   
+
+   
+}
+
+.link a:hover  {
+    color: #393E46;
+}

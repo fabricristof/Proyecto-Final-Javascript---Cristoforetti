@@ -1,4 +1,4 @@
-let cantidadDeUsuarios = parseFloat(prompt("Ingrese cantidad de personas"))
+/* let cantidadDeUsuarios = parseFloat(prompt("Ingrese cantidad de personas"))
 
 
 console.log (cantidadDeUsuarios)
@@ -41,5 +41,35 @@ divisionTotal = parseFloat( totales / cantidadDeUsuarios)
 console.log("El total por cada Usuario es: " + divisionTotal)
 
 mostrar (" Cada uno es " + divisionTotal)
+ */
+
+
+
+
+/* SECCION HOMBRE */
+
+let stockProductosHombre = [
+    {nombre: "Remera básica", precio: "3999", stock:10, imgUrl: "../imagenes/camisahombre.png"},
+    {nombre: "Remera polo", precio: "10999", stock:4, imgUrl: "../imagenes/camisahombre.png"},
+    {nombre: "Remera estampada", precio: "5999", stock:20, imgUrl: "../imagenes/camisahombre.png"},
+    {nombre: "Remera con botones", precio: "8999", stock:8, imgUrl: "../imagenes/camisahombre.png"}
+]
+
+let contenedorHombre = document.getElementById("contenedorProductosH")
+
+ for (const producto of stockProductosHombre) {
+    let tarjetaHombre = document.createElement ("div")
+    tarjetaHombre.className = "productosHombre col-xl-6 col-md-6 col-sm-12 lead mt-5"
+    tarjetaHombre.innerHTML = `
+     <img src=${producto.imgUrl}>
+
+    
+    `
+    contenedorHombre.append(tarjetaHombre)
+ }
+
+
+
+
 
     
